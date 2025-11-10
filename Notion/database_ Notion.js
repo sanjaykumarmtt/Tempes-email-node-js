@@ -1,11 +1,10 @@
 import dotenv from "dotenv";
 
-
 dotenv.config();
 
-
 const API_KEY = process.env.NOTION_SECRET;
-const DATABASE_ID = process.env.NODEMAIL_DATABASE; 
+const DATABASE_ID = process.env.NODEMAIL_DATABASE;
+
 export const getBlogPosts = async (req, res) => {
     try {
        
