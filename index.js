@@ -12,14 +12,15 @@ app.use(bodyParser.json());
 dotenv.config();
 const PORT = process.env.PORT || 5000;
 
-function states_server() {
+app.listen();
+// function states_server() {
     app.listen(PORT, () => {
         console.log(`Server is running on port ${PORT}`)
     })
-    .catch((error) => console.log(error));
-}
+//     .catch((error) => console.log(error));
+// }
 
-states_server();
+// states_server();
 app.use("/api/user", route);
 
 
