@@ -1,0 +1,9 @@
+env:
+  - variable: NODEMAIL_DATABASE
+    secret: NODEMAIL_DATABASE
+  - variable: NOTION_SECRET
+    secret: NOTION_SECRET
+  - variable: PORT
+    value: 8000
+  - variable: API_EMAIL
+    value: "https://api.mail.tm/"
